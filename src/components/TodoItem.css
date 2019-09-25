@@ -1,0 +1,52 @@
+.App {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #EEE;
+}
+
+.TodoItem {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    border-bottom: 1px solid #EEE;
+    padding: 10px 5px;
+    display: flex;
+}
+.Header {
+    display: flex;
+    outline: none;
+    border-bottom: 1px solid #EEE;
+}
+.Header input {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    border: none;
+    outline: none;
+}
+.Header input:focus {
+    outline: none;
+}
+.TodoItem:last-child {
+    border-bottom: none;
+}
+.TodoItem p {
+    margin: 0 0 0 10px;
+}
+.TodoItem-done {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    text-decoration: line-through;
+    opacity: .3;
+
+}
+
+
